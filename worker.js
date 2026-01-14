@@ -201,10 +201,16 @@ export default {
         ? `https://${baseDomain}/${pathname}` 
         : null; // 如果后端没配，前端自己拼
 
+      const putRespData = await putResp.json();
+
+      // 返回 Commit URL 方便前端跳转
+      const commitUrl = `https://github.com/${owner}/${repo}/commit/${putRespData.content.sha || "main"}`;
+
       return Response.json({ 
         success: true, 
         message: "Short link created",
-        short_url: shortUrl
+        short_url: shortUrl,
+        commit_url: commitUrl
       }, {
         headers: { "Access-Control-Allow-Origin": "*" }
       });

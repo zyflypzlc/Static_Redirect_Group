@@ -164,7 +164,10 @@
                     // 优先使用后端返回的 URL，否则使用当前域名拼接
                     const finalUrl = result.short_url || ('https://' + window.location.hostname + '/' + pathname);
                     
-                    messageDiv.textContent = '提交成功，您的短链正在构建中，请等待60s再尝试访问 ' + finalUrl;
+                    // 使用后端返回的 Commit URL 或 fallback 到 Actions 列表
+                    const actionsUrl = result.commit_url || `https://github.com/afoim/Static_Redirect_Group/actions`;
+                    
+                    messageDiv.innerHTML = `提交成功，您的短链正在构建中，稍等大约一分钟。<br>您也可以前往 <a href="${actionsUrl}" target="_blank">构建状态页面</a> 查看构建状态，<br>之后再尝试访问： <a href="${finalUrl}" target="_blank">${finalUrl}</a>`;
                     messageDiv.className = 'message success';
                     document.getElementById('createForm').reset();
                 } else {
