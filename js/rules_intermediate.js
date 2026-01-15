@@ -1250,5 +1250,9 @@ window.RULES_INTERMEDIATE = {
     "/example": {
         "url": "https://example.com?payload={\"name\":\"233\"}",
         "expired_at": "2026-01-16T21:56:00.000Z"
+    },
+    "/example1": {
+        "url": "http://example.com/echo?text=\"<script>alert(1)</script>\"",
+        "expired_at": "2026-01-16T21:59:00.000Z"
     }
 };
