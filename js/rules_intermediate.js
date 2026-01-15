@@ -1214,5 +1214,9 @@ window.RULES_INTERMEDIATE = {
     "/hdjdidj": {
         "url": "https://github.com",
         "expired_at": "2026-01-18T11:06:00.000Z"
+    },
+    "/foggy": {
+        "url": "https://b23.tv/kTlzAW0",
+        "expired_at": "2026-01-22T11:35:00.000Z"
     }
 };
