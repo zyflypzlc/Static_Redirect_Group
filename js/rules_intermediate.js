@@ -1274,5 +1274,9 @@ window.RULES_INTERMEDIATE = {
     "/56205ea5": {
         "url": "https://grok.com/project/56205ea5-1098-4fe9-82b4-51226bfb8894?tab=conversations&chat=e2244a5f-238c-45cb-853d-4286e82b0a4d&rid=21033f82-fd14-406e-b562-980dc5d1ed23",
         "expired_at": "2026-01-22T00:25:00.000Z"
+    },
+    "/asdsaqws": {
+        "url": "https://www.google.com",
+        "expired_at": "2026-01-22T00:25:00.000Z"
     }
 };
