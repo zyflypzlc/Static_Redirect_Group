@@ -2774,5 +2774,9 @@ window.RULES_INTERMEDIATE = {
     "/verber": {
         "url": "https://verber.eu.org",
         "expired_at": "2026-01-17T13:00:00.000Z"
+    },
+    "/etsanswer": {
+        "url": "https://ets-answer.netlify.app/",
+        "expired_at": "2026-01-20T13:18:00.000Z"
     }
 };
