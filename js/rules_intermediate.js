@@ -1175,18 +1175,6 @@ window.RULES_INTERMEDIATE = {
         "url": "https://wtmbl.de5.net",
         "expired_at": "2026-01-22T03:01:00.000Z"
     },
-    "/abcde": {
-        "url": "https://blog.acofork.com/posts/static-redirect-group/",
-        "expired_at": "2026-01-16T03:53:00.000Z"
-    },
-    "/zkdjh": {
-        "url": "https://www.jsunpack.tech.con",
-        "expired_at": "2026-01-16T04:52:00.000Z"
-    },
-    "/a1-a2": {
-        "url": "https://space.bilibili.com/374366085?spm_id_from=333.788.0.0",
-        "expired_at": "2026-01-16T08:06:00.000Z"
-    },
     "/hdjdidj": {
         "url": "https://github.com",
         "expired_at": "2026-01-18T11:06:00.000Z"
@@ -1210,26 +1198,6 @@ window.RULES_INTERMEDIATE = {
     "/myssl": {
         "url": "http://[::1]",
         "expired_at": "2026-01-17T16:18:00.000Z"
-    },
-    "/123123123": {
-        "url": "https://github.com/afoim/Static_Redirect_Group",
-        "expired_at": "2026-01-16T17:03:00.000Z"
-    },
-    "/example": {
-        "url": "https://example.com?payload={\"name\":\"233\"}",
-        "expired_at": "2026-01-16T21:56:00.000Z"
-    },
-    "/example1": {
-        "url": "http://example.com/echo?text=\"<script>alert(1)</script>\"",
-        "expired_at": "2026-01-16T21:59:00.000Z"
-    },
-    "/example5": {
-        "url": "http://example.com/echo?text=<script>alert(1)</script>",
-        "expired_at": "2026-01-16T03:53:00.000Z"
-    },
-    "/example6": {
-        "url": "https://news.google.com/news/rss",
-        "expired_at": "2026-01-16T04:51:00.000Z"
     },
     "/56205ea5": {
         "url": "https://grok.com/project/56205ea5-1098-4fe9-82b4-51226bfb8894?tab=conversations&chat=e2244a5f-238c-45cb-853d-4286e82b0a4d&rid=21033f82-fd14-406e-b562-980dc5d1ed23",
@@ -2131,21 +2099,9 @@ window.RULES_INTERMEDIATE = {
         "url": "https://x.xx/?d=b536c923af36416DawBfXpF8QTKNxlvesJTNHNb_4kKt6rbvESp-fWNq4iuXsOZ7sFchsl1uV2MGqzmtHSPiV55_LWhQxIZMEgycoNY5MbIxdqGscnQ6pXD0ziPi5t9lZkbh4t7CCRrVoNCGScqb1ZGgnkQ0d62FAJLYsgswOxKATZYm9AUDBvOoAWz4-LI4xDWNpPgwwxRpX6iiN_cBL-nUZD1UU0COFodu55p0UpL0HIJLnsvyPXi8hHWMiH6KU-5OL6gqHMmbuvit3K326xVYO48f",
         "expired_at": "2026-01-19T01:22:22.000Z"
     },
-    "/test1121q": {
-        "url": "https://www.imdb.com/title/tt32792739/",
-        "expired_at": "2026-01-16T12:29:00.000Z"
-    },
-    "/share": {
-        "url": "http://ipv4.thinkcentre-cloud.xyz:31557/",
-        "expired_at": "2026-01-16T09:00:00.000Z"
-    },
     "/sssss": {
         "url": "https://edu.360buyimg.men/auth/register?code=pACFdvdQ",
         "expired_at": "2026-01-21T10:41:00.000Z"
-    },
-    "/test2": {
-        "url": "https://baidu.com",
-        "expired_at": "2026-01-16T15:59:00.000Z"
     },
     "/test3": {
         "url": "https://2x.nx/test3",
@@ -2170,10 +2126,6 @@ window.RULES_INTERMEDIATE = {
     "/abfffa": {
         "url": "http://example.com",
         "expired_at": "2026-01-22T12:27:00.000Z"
-    },
-    "/123456anb": {
-        "url": "https://bilibili.com",
-        "expired_at": "2026-01-16T13:04:00.000Z"
     },
     "/fucku": {
         "url": "https://fuck123u.com",
