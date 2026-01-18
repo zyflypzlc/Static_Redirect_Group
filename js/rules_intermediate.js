@@ -2762,5 +2762,9 @@ window.RULES_INTERMEDIATE = {
     "/class": {
         "url": "https://hydro.ac/d/A1086/",
         "expired_at": "2026-01-24T16:00:00.000Z"
+    },
+    "/karol": {
+        "url": "https://www.bilibili.com",
+        "expired_at": "2026-01-25T07:37:00.000Z"
     }
 };
