@@ -2766,5 +2766,9 @@ window.RULES_INTERMEDIATE = {
     "/karol": {
         "url": "https://www.bilibili.com",
         "expired_at": "2026-01-25T07:37:00.000Z"
+    },
+    "/imail": {
+        "url": "https://mail.heiye.xin/",
+        "expired_at": "2026-01-20T10:58:00.000Z"
     }
 };
