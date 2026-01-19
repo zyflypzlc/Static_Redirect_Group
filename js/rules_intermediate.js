@@ -1874,5 +1874,9 @@ window.RULES_INTERMEDIATE = {
     "/love233": {
         "url": "https://www.bilibili.com/",
         "expired_at": "2026-01-21T09:32:00.000Z"
+    },
+    "/test1": {
+        "url": "https://www.baidu.com",
+        "expired_at": "2026-01-21T12:16:00.000Z"
     }
 };
