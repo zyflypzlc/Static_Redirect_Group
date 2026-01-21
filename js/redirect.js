@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const config = window.REDIRECT_CONFIG || {};
     const rulesIntermediate = window.RULES_INTERMEDIATE || {};
     const rulesDirect = window.RULES_DIRECT || {};
-    const fallbackBase = config.fallback || "https://blog.acofork.com";
+    const fallbackBase = config.fallback || "https://blog.lctn.site";
 
     // 获取当前路径
     const path = window.location.pathname;
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 优先级: 1. 直接跳转 (Direct) 2. 中间页跳转 (Intermediate) 3. Fallback
     
     let target = null;
-    let mode = 'direct'; // direct, intermediate, fallback
+    let mode = 'fallback'; // direct, intermediate, fallback
     let ruleData = null;
 
     // 只要规则存在且未过期，就视为命中
