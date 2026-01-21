@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // 优先级: 1. 直接跳转 (Direct) 2. 中间页跳转 (Intermediate) 3. Fallback
     
     let target = null;
-    let mode = 'fallback'; // direct, intermediate, fallback
+    let mode = 'direct'; // direct, intermediate, fallback
     let ruleData = null;
 
     // 只要规则存在且未过期，就视为命中
